@@ -24,12 +24,27 @@ nav {
 }
 
 h5 {
-    font-size: 50px !important;
+    font-size: 40px !important;
     display: flex;
     justify-content: center;
 }
 p {
-    font-size: 20px !important;
+    font-size: 15px !important;
     display: flex;
     justify-content: center;
+}
+
+img{
+    width: 50px;
+
+}
+.card-adjustment {
+    width: 95%;
+    margin: 0 auto;
+
+}
+
+.picture-adjustment{
+    width: 60%;
+    margin-left: 20%;
 }
