@@ -48,3 +48,12 @@ img{
     width: 60%;
     margin-left: 20%;
 }
+
+.social-logo{
+    width: 30% !important;
+    
+}
+
+.hovering:hover {
+    width: 120% !important;
+}
