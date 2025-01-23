@@ -50,10 +50,25 @@ img{
 }
 
 .social-logo{
-    width: 30% !important;
+    width: 15% !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
     
 }
 
 .hovering:hover {
-    width: 120% !important;
+    width: 110% !important;
 }
+
+footer {
+    margin-top: 3%;
+}
+
+
+.footeradj {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
