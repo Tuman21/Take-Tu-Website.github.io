@@ -77,17 +77,9 @@ footer {
 }
 
 
-
-
-
-
-
-
-/* Form Contact */
 form {
 box-sizing: border-box;
 
-/* Auto layout */
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -105,32 +97,22 @@ border: 1px solid #D9D9D9;
 border-radius: 8px;
 }
 
-.form-group {
-    margin-left: 35%;
+.hovering {
+    transition: transform 0.3s ease;
 }
 
-.form-control{
-    width: 500px;
-  height: 40px;
-  padding: 10px;
-  font-size: 16px;
+.hovering:hover {
+    transform: scale(1.1);
 }
 
-.dropdown-toggle{
- margin-left: 450px;
+.social-logo {
+    height: 100px;
 }
 
-
-#submit {
-  margin-left: 550px;
-  cursor: pointer;
+.navbar {
+    margin-bottom: 20px;
 }
-#checkboxes {
-    margin-left: 450px;
-  cursor: pointer;
-}
-
-h4 {
-    font-size: medium;
-    margin-left: 450px;
+.navbarcolor {
+    background-color: #343a40; 
+    padding-bottom: 20px; 
 }
