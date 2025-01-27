@@ -117,5 +117,20 @@ border-radius: 8px;
 }
 
 .dropdown-toggle{
- margin-left: 500px;
+ margin-left: 450px;
+}
+
+
+#submit {
+  margin-left: 550px;
+  cursor: pointer;
+}
+#checkboxes {
+    margin-left: 450px;
+  cursor: pointer;
+}
+
+h4 {
+    font-size: medium;
+    margin-left: 450px;
 }

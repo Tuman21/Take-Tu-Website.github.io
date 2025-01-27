@@ -48,30 +48,36 @@
         <h1 class="text-center">Booking</h1>
         </div>
 
-    <form action="" class="container">
-        <div class="form-group">
-          <label for="name">Name</label>
+    <form action="submit" class="container"> 
+      <div class="form-group">
+          <label for="name" aria-required="true">Name</label>
           <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Enter your name">
         </div>
         <div class="form-group">
-          <label for="email">Email</label>
+          <label for="email" aria-required="true">Email</label>
           <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Enter your email">
         </div>
         <div class="form-group">
-          <label for="phone">Phone Number</label>
+          <label for="phone" aria-required="true">Phone Number</label>
           <input type="tel" class="form-control" id="phone" aria-describedby="phone" placeholder="Enter your phone number">
         </div>
         <div class="form-group"></div>
-        <div class="dropdown-center">
-            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Your Experience
-            </button>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Portrait</a></li>
-              <li><a class="dropdown-item" href="#">fashion</a></li>
-              <li><a class="dropdown-item" href="#">Custom</a></li>
-            </ul>
-          </div>
+
+        <div><h4>Choose your Experience</h4></div>
+        
+          <div id="checkboxes">
+          <input type="radio" name="yourexp" class="btn-check" id="btn-check-outlined-portrait" autocomplete="off">
+<label class="btn btn-outline-primary" for="btn-check-outlined-portrait">Portrait</label>
+
+<input type="radio" name="yourexp" class="btn-check" id="btn-check-outlined-fashion" autocomplete="off">
+<label class="btn btn-outline-primary" for="btn-check-outlined-fashion">Fashion</label>
+
+<input type="radio" name="yourexp" class="btn-check" id="btn-check-outlined-custom" autocomplete="off">
+<label class="btn btn-outline-primary" for="btn-check-outlined-custom">Custom</label>
+</div>
+          <div>
+          <input class="btn btn-primary" id="submit" type="submit" value="Submit">
+        </div>
     </form>
      
     
