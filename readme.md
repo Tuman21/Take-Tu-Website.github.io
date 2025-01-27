@@ -20,5 +20,6 @@
 - change loading animations so website will load in a less jerky fashion 
 - change fonts of the website to make the nav bar and other words more stylish
 - replace take tu productions with official logo
+- optimize for mobile phones
 
 
